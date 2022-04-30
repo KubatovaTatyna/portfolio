@@ -1,0 +1,17 @@
+.About {
+  display: flex;
+  max-width: 70%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem 0;
+}
+
+.AboutText {
+  font-family: 'Manrope', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: end;
+  padding: 0 2.5rem;
+  line-height: 40px;
+}
