@@ -7,7 +7,7 @@ import upwork from '../../assets/upwork.png';
 import leetcode from '../../assets/leetcode.png';
 
 const Footer = () => {
-  return (<div className="Footer">
+  return (<div className="Footer" id='contact'>
     <div className="row">
       <div className="col-2 text-center">
         <a href="https://github.com/KubatovaTatyna">

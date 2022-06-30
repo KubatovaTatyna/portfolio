@@ -7,7 +7,7 @@ import kyrgyztours from '../../assets/kyrgyztours.png';
 import karakoltech from '../../assets/karakoltech.png';
 
 const Works = () => {
-  return (<div className="Works">
+  return (<div className="Works" id='works'>
     <h1>My works</h1>
     <div className='row'>
       <div className='col'>
