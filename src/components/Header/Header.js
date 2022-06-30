@@ -1,14 +1,14 @@
-import classes from './Header.module.css';
+import './Header.scss';
 import Nav from './Nav/Nav';
 
 const Header = () => {
   return (
     <>
-      <div className={classes.Header} id='home'>
+      <div className='Header' id='home'>
         <Nav />
-        <div className={classes.HeaderText}>
-          <h1>Tatyna Kubatova</h1>
-          <h2>Frontend Developer</h2>
+        <div className='HeaderText row m-auto d-flex align-items-center'>
+          <h1 className='col-12'>Tatyna Kubatova</h1>
+          <h2 className='col-12'>Frontend Developer</h2>
         </div>
       </div>
     </>);
